@@ -7,10 +7,6 @@ export const BodyHome = styled.div`
   grid-gap: 30px;
 `;
 
-export const Category = styled.h3`
-  align-self: center;
-`;
-
 export const ProductList = styled.ul`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
