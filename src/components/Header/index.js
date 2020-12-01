@@ -21,7 +21,7 @@ function Header() {
           <Link to="/register">Register</Link>
         </li>
         <li>
-          <Link to="/">About</Link>
+          <Link to="/about">About</Link>
         </li>
       </Menu>
     </Container>

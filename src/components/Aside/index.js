@@ -1,8 +1,8 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { Cart } from './styles';
 import Button from 'react-bootstrap/Button';
+import { Cart } from './styles';
 import { formatPrice } from '../../util/format';
 
 function Aside() {

@@ -7,9 +7,9 @@ function Home() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    api.get('categories').then(response => {
+    api.get('categories').then((response) => {
       setProducts(response.data);
-    })
+    });
   }, []);
 
   return (

@@ -18,7 +18,7 @@ function Home() {
     const phone = phoneRef.current.value;
 
     console.log(email, password, name, phone);
-    setUser({ email, password, name, phone })
+    setUser({ email, password, name, phone });
   }
 
   return (
@@ -36,7 +36,11 @@ function Home() {
         </Form.Group>
         <Form.Group controlId="formBasicPassword">
           <Form.Label>Password: </Form.Label>
-          <Form.Control ref={passwordRef} type="password" placeholder="Password" />
+          <Form.Control
+            ref={passwordRef}
+            type="password"
+            placeholder="Password"
+          />
         </Form.Group>
         <Form.Group controlId="formBasicPhone">
           <Form.Label>Phone: </Form.Label>

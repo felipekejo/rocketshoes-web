@@ -3,8 +3,9 @@ import { Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Cart from './pages/Cart';
-import Register from "./pages/Register";
-import Products from "./pages/Products"
+import Register from './pages/Register';
+import Products from './pages/Products';
+import About from './pages/About';
 
 export default function Routes() {
   return (
@@ -13,6 +14,7 @@ export default function Routes() {
       <Route path="/cart" component={Cart} />
       <Route path="/register" component={Register} />
       <Route path="/products" component={Products} />
+      <Route path="/about" component={About} />
     </Switch>
   );
 }
